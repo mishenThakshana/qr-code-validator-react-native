@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.qrcoffeecraft"
+    namespace "com.mishenThakshana.qrcodevalidator"
     defaultConfig {
-        applicationId "com.qrcoffeecraft"
+        applicationId "com.mishenThakshana.qrcodevalidator"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

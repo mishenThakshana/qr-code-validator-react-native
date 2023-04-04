@@ -1,4 +1,4 @@
-package com.qrcoffeecraft;
+package com.mishenThakshana.qrcodevalidator;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

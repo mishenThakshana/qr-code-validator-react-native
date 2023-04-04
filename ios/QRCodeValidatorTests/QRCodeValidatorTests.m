@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface QrCoffeeCraftTests : XCTestCase
+@interface QRCodeValidatorTests : XCTestCase
 
 @end
 
-@implementation QrCoffeeCraftTests
+@implementation QRCodeValidatorTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

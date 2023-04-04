@@ -10,9 +10,9 @@ import {
   TouchableOpacity,
   Alert,
 } from 'react-native';
+import {adminCode, qrCodes} from 'src/config/config';
 import colors from 'src/constants/colors';
 import fonts from 'src/constants/fonts';
-import {qrCodes} from 'src/screens/Home';
 import {NavigationHook} from 'src/types/NavigationType';
 
 interface ResetModalInterface {
@@ -28,7 +28,7 @@ const ResetModal: FC<ResetModalInterface> = ({
   const [code, setCode] = useState<string>();
 
   const resetQrCodes = () => {
-    if (code === '0001') {
+    if (code === adminCode) {
       AsyncStorage.removeItem('qr_codes');
       AsyncStorage.setItem('qr_codes', JSON.stringify(qrCodes));
       navigation.reset({
