@@ -10,7 +10,7 @@ The QR Code Validator App is a robust and efficient React Native application des
 2. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-3. [Use Cases](#use cases)
+3. [Use Cases](#use-cases)
 4. [Acknowledgements](#acknowledgements)
 
 ## Features
